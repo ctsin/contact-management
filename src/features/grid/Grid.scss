@@ -1,0 +1,63 @@
+@import "../../scss/variables";
+
+.grid-table {
+  border-spacing: 0;
+
+  tbody {
+    border: 1px solid $border-color;
+    border-bottom: 1px none;
+    border-radius: $radius;
+    background-color: $gray-50;
+
+    tr:first-of-type {
+      td {
+        border-top: 1px solid $border-color;
+
+        &:first-of-type {
+          border-radius: $radius 0 0;
+        }
+
+        &:last-of-type {
+          border-radius: 0 $radius 0 0;
+        }
+      }
+    }
+
+    tr:last-of-type {
+      td {
+        &:first-of-type {
+          border-radius: 0 0 0 $radius;
+        }
+
+        &:last-of-type {
+          border-radius: 0 0 $radius;
+        }
+      }
+    }
+
+    td {
+      border-bottom: 1px solid $border-color;
+      border-top: 1px none;
+
+      &:first-of-type {
+        border-left: 1px solid $border-color;
+      }
+
+      &:last-of-type {
+        border-right: 1px solid $border-color;
+      }
+    }
+  }
+
+  th,
+  td {
+    text-align: left;
+    padding: $size-md $size-lg;
+  }
+
+  th {
+    font-weight: normal;
+    background-color: transparent;
+    color: $gray-600;
+  }
+}

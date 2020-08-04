@@ -1,0 +1,13 @@
+@import "../scss/variables";
+
+.app {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+
+  @media screen and (min-width: $break-point-md) {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
