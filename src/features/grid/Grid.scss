@@ -60,4 +60,8 @@
     background-color: transparent;
     color: $gray-600;
   }
+
+  @media screen and (min-width: $break-point-md) {
+    width: 100%;
+  }
 }

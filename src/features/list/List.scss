@@ -1,7 +1,8 @@
-@import "../scss/variables";
+@import "../../scss/variables";
 
-.app {
+.list-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   margin: 1em;
 

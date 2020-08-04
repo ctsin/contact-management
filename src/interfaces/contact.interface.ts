@@ -1,6 +1,6 @@
 export interface Contact {
   UserID: string;
-  IsFavorite: "0" | "1";
+  IsFavorite: "0" | "1" | 0 | 1;
   BirthDate: string;
   Title: "MR" | "MRS";
   Name: string;
@@ -8,7 +8,8 @@ export interface Contact {
 }
 
 interface ContactDetail {
-  UserID: string;
   ContactDetailType: "Phone" | "EAMIL";
   ContactDetailContent: string;
 }
+
+export type PartialContact = Partial<Contact>;
