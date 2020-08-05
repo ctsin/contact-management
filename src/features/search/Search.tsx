@@ -2,6 +2,8 @@ import React, { FC, ChangeEvent } from "react";
 import { v4 as uuid } from "uuid";
 import { useDispatch } from "react-redux";
 import { fetchContacts } from "../../store/contact.slice";
+import { DebounceInput } from "react-debounce-input";
+
 import "./Search.scss";
 
 interface Props {
@@ -12,8 +14,7 @@ export const Search: FC<Props> = ({ placeholder }) => {
   const id = uuid();
   const dispatch = useDispatch();
 
-  // Todo: Debounce on input action
-  const onChanged = (event: ChangeEvent<HTMLInputElement>) => {
+  const changeHandler = (event: ChangeEvent<HTMLInputElement>) => {
     const Name = event.target.value;
 
     dispatch(fetchContacts(Name.length ? { Name } : {}));
@@ -21,12 +22,13 @@ export const Search: FC<Props> = ({ placeholder }) => {
 
   return (
     <div className="search">
-      <input
+      <DebounceInput
         className="field"
         placeholder={placeholder ?? "Search"}
         type="search"
+        debounceTimeout={300}
+        onChange={changeHandler}
         id={id}
-        onChange={onChanged}
       />
     </div>
   );
