@@ -1,7 +1,7 @@
 export const data = [
   {
     UserID: "60ab4d07-0a5e-40f3-a622-f67fc48ebf6a",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MR",
     Name: "Velazquez Gilliam",
     BirthDate: "Wednesday, August 7, 2019 6:09 AM",
@@ -12,7 +12,7 @@ export const data = [
   },
   {
     UserID: "d8193eae-22b9-4ccb-aae9-5644721760af",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MRS",
     Name: "Raquel Wolf",
     BirthDate: "Sunday, October 4, 2015 3:12 PM",
@@ -23,7 +23,7 @@ export const data = [
   },
   {
     UserID: "fd5076fe-1471-40b6-8cc6-679572b2b58d",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MR",
     Name: "Gloria Orr",
     BirthDate: "Friday, July 15, 2016 12:09 PM",
@@ -34,7 +34,7 @@ export const data = [
   },
   {
     UserID: "0d91b666-0052-473c-b0e0-d2d3658d65e3",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MRS",
     Name: "Bessie Alvarado",
     BirthDate: "Monday, November 27, 2017 1:27 PM",
@@ -45,7 +45,7 @@ export const data = [
   },
   {
     UserID: "bb18bbfa-1cdd-478c-829c-e3f8cb614a74",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MR",
     Name: "Hutchinson Sawyer",
     BirthDate: "Friday, August 28, 2015 8:29 AM",
@@ -56,7 +56,7 @@ export const data = [
   },
   {
     UserID: "2273c476-493a-4ce5-8cad-bac1b19facea",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MRS",
     Name: "Albert Spence",
     BirthDate: "Wednesday, October 16, 2019 7:19 PM",
@@ -67,7 +67,7 @@ export const data = [
   },
   {
     UserID: "47e71deb-8f7c-4012-8ef2-d9aa743639ee",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MR",
     Name: "Amparo Ochoa",
     BirthDate: "Monday, April 21, 2014 2:43 PM",
@@ -78,7 +78,7 @@ export const data = [
   },
   {
     UserID: "26f5c8cc-4a0d-4fae-8ac8-114580c7d924",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MRS",
     Name: "Laura Mendoza",
     BirthDate: "Sunday, October 4, 2015 3:48 PM",
@@ -89,7 +89,7 @@ export const data = [
   },
   {
     UserID: "9c752073-d596-4ec2-a9f5-3eb2423c257b",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MR",
     Name: "Lee Chapman",
     BirthDate: "Tuesday, April 12, 2016 12:23 PM",
@@ -100,7 +100,7 @@ export const data = [
   },
   {
     UserID: "9f192241-8b7c-49e2-8f4c-a912915275ea",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MRS",
     Name: "Victoria Franklin",
     BirthDate: "Thursday, May 14, 2015 7:57 AM",
@@ -111,7 +111,7 @@ export const data = [
   },
   {
     UserID: "7b65ab7f-368b-4b81-9407-250dd4ea71a6",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MR",
     Name: "Holly Reeves",
     BirthDate: "Wednesday, March 11, 2020 11:41 PM",
@@ -122,7 +122,7 @@ export const data = [
   },
   {
     UserID: "bd9154cf-7ec0-42a5-9036-4a8014e5684e",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MRS",
     Name: "Deirdre Barr",
     BirthDate: "Monday, June 4, 2018 1:36 AM",
@@ -133,7 +133,7 @@ export const data = [
   },
   {
     UserID: "cb34db26-d163-4c12-8ffd-400965754dbb",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MR",
     Name: "Kemp Velez",
     BirthDate: "Thursday, March 20, 2014 9:05 AM",
@@ -144,7 +144,7 @@ export const data = [
   },
   {
     UserID: "e2a8c55d-62c7-4c56-a3c5-5ec06e2e0c8c",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MRS",
     Name: "Lee Lee",
     BirthDate: "Sunday, March 6, 2016 3:04 AM",
@@ -155,7 +155,7 @@ export const data = [
   },
   {
     UserID: "c5ff066e-2762-446f-863f-74500db69825",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MR",
     Name: "Wong Morgan",
     BirthDate: "Thursday, August 21, 2014 9:46 AM",
@@ -166,7 +166,7 @@ export const data = [
   },
   {
     UserID: "e34a134d-a536-4cdd-bb0f-7785f1008601",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MRS",
     Name: "Patrick Dominguez",
     BirthDate: "Saturday, July 4, 2015 6:04 PM",
@@ -177,7 +177,7 @@ export const data = [
   },
   {
     UserID: "8fb663cf-a46b-4403-a2b9-ab19b3362657",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MR",
     Name: "Whitfield Fitzpatrick",
     BirthDate: "Monday, May 18, 2015 6:20 AM",
@@ -188,7 +188,7 @@ export const data = [
   },
   {
     UserID: "beb48efb-08a0-46fc-a580-03b8294328c8",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MRS",
     Name: "Phoebe Chandler",
     BirthDate: "Wednesday, December 21, 2016 1:58 AM",
@@ -199,7 +199,7 @@ export const data = [
   },
   {
     UserID: "84a1bc1d-569f-4feb-bdb4-7f1280958f52",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MR",
     Name: "Donovan Shaw",
     BirthDate: "Sunday, April 17, 2016 4:12 PM",
@@ -210,7 +210,7 @@ export const data = [
   },
   {
     UserID: "06dc210a-4934-4767-aa6b-d84c621c644c",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MRS",
     Name: "Kayla Aguirre",
     BirthDate: "Sunday, April 20, 2014 10:33 PM",
@@ -221,7 +221,7 @@ export const data = [
   },
   {
     UserID: "8294da92-2786-4234-8f2c-ab0a983067e1",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MR",
     Name: "Graves Gentry",
     BirthDate: "Thursday, May 11, 2017 2:38 PM",
@@ -232,7 +232,7 @@ export const data = [
   },
   {
     UserID: "a157cebb-e4a1-4286-8684-f068a2c37935",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MRS",
     Name: "Lily Hunter",
     BirthDate: "Monday, August 20, 2018 3:29 PM",
@@ -243,7 +243,7 @@ export const data = [
   },
   {
     UserID: "36c79517-14bd-4542-9df3-723f29b985cb",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MR",
     Name: "Rich Parsons",
     BirthDate: "Wednesday, July 13, 2016 3:52 PM",
@@ -254,7 +254,7 @@ export const data = [
   },
   {
     UserID: "5bf54b24-03c2-47ee-89e0-7996614f9bf7",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MRS",
     Name: "Genevieve Hendricks",
     BirthDate: "Saturday, May 19, 2018 3:42 PM",
@@ -265,7 +265,7 @@ export const data = [
   },
   {
     UserID: "72d0566b-9f81-4be4-800b-c940b6cf8285",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MR",
     Name: "Dena White",
     BirthDate: "Friday, April 10, 2020 8:23 PM",
@@ -276,7 +276,7 @@ export const data = [
   },
   {
     UserID: "72891cf3-f673-43c0-b27a-5865cdcd5408",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MRS",
     Name: "Maribel Horne",
     BirthDate: "Thursday, April 26, 2018 7:47 AM",
@@ -287,7 +287,7 @@ export const data = [
   },
   {
     UserID: "c0828431-8f3e-4203-8b81-326f1b1833c6",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MR",
     Name: "Miranda Glenn",
     BirthDate: "Sunday, July 19, 2020 8:01 AM",
@@ -298,7 +298,7 @@ export const data = [
   },
   {
     UserID: "21a90f4f-5096-484c-8ddf-50c0d5c067e4",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MRS",
     Name: "Cannon Gay",
     BirthDate: "Friday, July 24, 2015 12:56 PM",
@@ -309,7 +309,7 @@ export const data = [
   },
   {
     UserID: "e5a24493-c659-47d8-b140-5e170544bd04",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MR",
     Name: "Chase Logan",
     BirthDate: "Friday, February 16, 2018 8:30 AM",
@@ -320,7 +320,7 @@ export const data = [
   },
   {
     UserID: "517e7b9e-602d-4955-a882-d08013c04951",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MRS",
     Name: "Puckett Berg",
     BirthDate: "Saturday, August 17, 2019 10:21 PM",
@@ -331,7 +331,7 @@ export const data = [
   },
   {
     UserID: "c0625cc2-399d-4e13-b7df-85a444fe2c1f",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MR",
     Name: "Cote Swanson",
     BirthDate: "Saturday, May 25, 2019 6:07 PM",
@@ -342,7 +342,7 @@ export const data = [
   },
   {
     UserID: "aeffedda-7892-4157-861e-7017f8e1a6e8",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MRS",
     Name: "Wagner Salas",
     BirthDate: "Monday, December 1, 2014 11:01 AM",
@@ -353,7 +353,7 @@ export const data = [
   },
   {
     UserID: "04757c6a-d5a9-409b-9ddf-f8de88e20769",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MR",
     Name: "Jacobs Wolfe",
     BirthDate: "Monday, July 8, 2019 3:21 AM",
@@ -364,7 +364,7 @@ export const data = [
   },
   {
     UserID: "c311f4cd-350e-4ba2-a1a1-393e04b79187",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MRS",
     Name: "Wheeler Dale",
     BirthDate: "Monday, April 13, 2015 3:43 AM",
@@ -375,7 +375,7 @@ export const data = [
   },
   {
     UserID: "4f23d1c6-0618-4a41-9aa2-cb721f84af06",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MR",
     Name: "Russo Gardner",
     BirthDate: "Wednesday, March 29, 2017 9:38 AM",
@@ -386,7 +386,7 @@ export const data = [
   },
   {
     UserID: "8ceebc80-a64c-49fa-b51e-afdfbc972d49",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MRS",
     Name: "Jessica Francis",
     BirthDate: "Tuesday, November 15, 2016 8:34 PM",
@@ -397,7 +397,7 @@ export const data = [
   },
   {
     UserID: "96ca3d46-f880-461b-9dfa-f802a9ce361c",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MR",
     Name: "Klein Foster",
     BirthDate: "Thursday, December 11, 2014 5:10 PM",
@@ -408,7 +408,7 @@ export const data = [
   },
   {
     UserID: "20569047-46af-4bf4-b010-6d6bcf94420c",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MRS",
     Name: "Prince Cotton",
     BirthDate: "Tuesday, February 5, 2019 6:21 AM",
@@ -419,7 +419,7 @@ export const data = [
   },
   {
     UserID: "7f893f2b-f3f5-4fe4-8fac-14749a12c405",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MR",
     Name: "Sophia Brock",
     BirthDate: "Friday, November 23, 2018 11:50 AM",
@@ -430,7 +430,7 @@ export const data = [
   },
   {
     UserID: "89e83ef1-5281-4439-b19e-70b9ae4ad50e",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MRS",
     Name: "Hicks Church",
     BirthDate: "Monday, October 26, 2015 2:37 AM",
@@ -441,7 +441,7 @@ export const data = [
   },
   {
     UserID: "14590110-4c67-401f-a152-acc95b74b39f",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MR",
     Name: "Tracie Huber",
     BirthDate: "Thursday, February 23, 2017 8:23 PM",
@@ -452,7 +452,7 @@ export const data = [
   },
   {
     UserID: "6aea86df-c6bf-4de1-a3bb-e4232df78479",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MRS",
     Name: "Maynard Maddox",
     BirthDate: "Tuesday, January 2, 2018 12:59 PM",
@@ -463,7 +463,7 @@ export const data = [
   },
   {
     UserID: "f85e6d83-6dd1-4dda-b11b-58ecf85ac8b4",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MR",
     Name: "Rachelle Ford",
     BirthDate: "Monday, December 7, 2015 6:17 AM",
@@ -474,7 +474,7 @@ export const data = [
   },
   {
     UserID: "1fb2df53-2962-43e0-ab35-57fa05298def",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MRS",
     Name: "Lawson Mcknight",
     BirthDate: "Friday, November 13, 2015 7:15 AM",
@@ -485,7 +485,7 @@ export const data = [
   },
   {
     UserID: "3eae43b0-3f94-4840-aa74-0a72669cdf37",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MR",
     Name: "Watson Byrd",
     BirthDate: "Sunday, March 11, 2018 9:03 PM",
@@ -496,7 +496,7 @@ export const data = [
   },
   {
     UserID: "c8af9d5e-f4b0-418e-a572-47709a72cf66",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MRS",
     Name: "Beard Fuller",
     BirthDate: "Thursday, February 19, 2015 5:10 AM",
@@ -507,7 +507,7 @@ export const data = [
   },
   {
     UserID: "c3a4bad1-342f-491e-b947-8417c5749dbc",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MR",
     Name: "York Buckley",
     BirthDate: "Sunday, July 15, 2018 7:16 AM",
@@ -518,7 +518,7 @@ export const data = [
   },
   {
     UserID: "8ef49e2e-d473-45fb-b026-172901e7faec",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MRS",
     Name: "Essie Morris",
     BirthDate: "Saturday, September 27, 2014 12:58 AM",
@@ -529,7 +529,7 @@ export const data = [
   },
   {
     UserID: "2e6ebe79-8c7e-4653-a9db-465d065cc830",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MR",
     Name: "Short Gregory",
     BirthDate: "Saturday, June 16, 2018 3:43 PM",
@@ -540,7 +540,7 @@ export const data = [
   },
   {
     UserID: "4bf7056f-597a-450d-b746-12eb6dd94336",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MRS",
     Name: "Mathews Mosley",
     BirthDate: "Friday, January 25, 2019 2:35 AM",
@@ -551,7 +551,7 @@ export const data = [
   },
   {
     UserID: "5c135e21-33fa-4256-922e-6c499dd77bda",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MR",
     Name: "Kris Acevedo",
     BirthDate: "Thursday, May 23, 2019 9:37 PM",
@@ -562,7 +562,7 @@ export const data = [
   },
   {
     UserID: "ce91f3c9-69d0-43de-8a37-e92554514d59",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MRS",
     Name: "Simpson Benton",
     BirthDate: "Thursday, March 19, 2015 11:44 AM",
@@ -573,7 +573,7 @@ export const data = [
   },
   {
     UserID: "3caca3c3-52ae-4045-8e20-bd7e93c08922",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MR",
     Name: "Serrano Schwartz",
     BirthDate: "Thursday, August 8, 2019 1:14 AM",
@@ -584,7 +584,7 @@ export const data = [
   },
   {
     UserID: "61febc2d-61bb-4123-8f10-b839ecbbcdc3",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MRS",
     Name: "Wells Hurst",
     BirthDate: "Thursday, March 23, 2017 12:26 PM",
@@ -595,7 +595,7 @@ export const data = [
   },
   {
     UserID: "74da8ab3-772a-4e24-aaad-ea55993430c6",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MR",
     Name: "Reba Mason",
     BirthDate: "Wednesday, January 6, 2016 1:38 AM",
@@ -606,7 +606,7 @@ export const data = [
   },
   {
     UserID: "16b432ff-4c4e-48fe-a6e5-61b34f376e70",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MRS",
     Name: "Hatfield Mills",
     BirthDate: "Saturday, December 13, 2014 2:21 PM",
@@ -617,7 +617,7 @@ export const data = [
   },
   {
     UserID: "b04a79dc-c8cd-486d-862c-578eb50ec12f",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MR",
     Name: "Park Oconnor",
     BirthDate: "Saturday, October 31, 2015 9:41 PM",
@@ -628,7 +628,7 @@ export const data = [
   },
   {
     UserID: "37977687-561f-4393-80ac-fed77ab05369",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MRS",
     Name: "Langley Gallegos",
     BirthDate: "Thursday, April 19, 2018 11:41 PM",
@@ -639,7 +639,7 @@ export const data = [
   },
   {
     UserID: "c3fcf77a-2e46-49d9-a8af-3a36b7e84be2",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MR",
     Name: "West Lambert",
     BirthDate: "Wednesday, January 18, 2017 9:27 PM",
@@ -650,7 +650,7 @@ export const data = [
   },
   {
     UserID: "6de46027-6008-4c46-baeb-bd3dfe7e6979",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MRS",
     Name: "Alyson Cohen",
     BirthDate: "Tuesday, September 8, 2015 11:40 AM",
@@ -661,7 +661,7 @@ export const data = [
   },
   {
     UserID: "f43a2ba0-3b75-4343-a82b-330e74f8c57d",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MR",
     Name: "Matthews Dickson",
     BirthDate: "Sunday, January 20, 2019 1:30 PM",
@@ -672,7 +672,7 @@ export const data = [
   },
   {
     UserID: "697b0fc4-798a-4431-9c4f-5807c66eda39",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MRS",
     Name: "Brewer Oliver",
     BirthDate: "Friday, September 13, 2019 8:21 AM",
@@ -683,7 +683,7 @@ export const data = [
   },
   {
     UserID: "7834eb1c-ffbe-4c76-806f-ba49cc55570e",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MR",
     Name: "Mariana Merrill",
     BirthDate: "Wednesday, September 11, 2019 8:32 PM",
@@ -694,7 +694,7 @@ export const data = [
   },
   {
     UserID: "67b79913-a64a-4ed4-9d24-ef4e06f99cc5",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MRS",
     Name: "Rosanne Brennan",
     BirthDate: "Sunday, December 16, 2018 7:36 PM",
@@ -705,7 +705,7 @@ export const data = [
   },
   {
     UserID: "0785cab2-3d53-4a29-8a32-5744ea3cb25a",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MR",
     Name: "Bernadette Davis",
     BirthDate: "Thursday, February 13, 2020 8:15 AM",
@@ -716,7 +716,7 @@ export const data = [
   },
   {
     UserID: "be800549-62aa-4152-ae72-3c894f2c6d72",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MRS",
     Name: "Trina Garrison",
     BirthDate: "Sunday, February 19, 2017 9:29 AM",
@@ -727,7 +727,7 @@ export const data = [
   },
   {
     UserID: "a5d64326-e4bc-4f7a-8a5f-cde72ca658cf",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MR",
     Name: "English Jimenez",
     BirthDate: "Monday, August 31, 2015 5:05 AM",
@@ -738,7 +738,7 @@ export const data = [
   },
   {
     UserID: "d99ac624-10fa-4884-afd9-d328d49ee80a",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MRS",
     Name: "Kristine Shelton",
     BirthDate: "Saturday, January 20, 2018 11:49 AM",
@@ -749,7 +749,7 @@ export const data = [
   },
   {
     UserID: "6e06cf71-06d1-48aa-9c3d-fd846e1d43e0",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MR",
     Name: "Ryan Humphrey",
     BirthDate: "Thursday, September 21, 2017 2:22 PM",
@@ -760,7 +760,7 @@ export const data = [
   },
   {
     UserID: "2d8ceb98-b97f-4db4-ba8a-2bb44a144e66",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MRS",
     Name: "Cruz Knowles",
     BirthDate: "Friday, June 15, 2018 6:00 AM",
@@ -771,7 +771,7 @@ export const data = [
   },
   {
     UserID: "035b3ec5-cd63-4958-a228-ab10d83ee123",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MR",
     Name: "Oneil Elliott",
     BirthDate: "Friday, December 18, 2015 11:04 PM",
@@ -782,7 +782,7 @@ export const data = [
   },
   {
     UserID: "35b53750-c50f-459e-a3fd-06200f9261d5",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MRS",
     Name: "Doreen Taylor",
     BirthDate: "Tuesday, August 30, 2016 9:09 PM",
@@ -793,7 +793,7 @@ export const data = [
   },
   {
     UserID: "785bc334-6c88-4727-b7e9-d23c9a031f71",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MR",
     Name: "Dodson House",
     BirthDate: "Thursday, July 6, 2017 9:16 AM",
@@ -804,7 +804,7 @@ export const data = [
   },
   {
     UserID: "5b40e9e2-c961-4c46-afd4-ffd1403e2215",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MRS",
     Name: "Tate Neal",
     BirthDate: "Wednesday, July 1, 2020 3:03 PM",
@@ -815,7 +815,7 @@ export const data = [
   },
   {
     UserID: "781cb3f2-1786-4353-9832-69837e40bbb8",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MR",
     Name: "Leta Mann",
     BirthDate: "Sunday, August 23, 2015 5:56 PM",
@@ -826,7 +826,7 @@ export const data = [
   },
   {
     UserID: "80fe73b5-5767-4e38-817c-6b3054e6875d",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MRS",
     Name: "Jean Maxwell",
     BirthDate: "Friday, December 2, 2016 1:11 PM",
@@ -837,7 +837,7 @@ export const data = [
   },
   {
     UserID: "e809257d-508b-45c3-96ad-9599010bfe0a",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MR",
     Name: "Colon Wilkerson",
     BirthDate: "Tuesday, June 16, 2020 10:42 AM",
@@ -848,7 +848,7 @@ export const data = [
   },
   {
     UserID: "9e0c34f9-831e-4ace-95ba-625497cf5f00",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MRS",
     Name: "Marisa Joyce",
     BirthDate: "Monday, December 25, 2017 10:29 AM",
@@ -859,7 +859,7 @@ export const data = [
   },
   {
     UserID: "bb0b86f9-a2ba-4edd-af05-30157767481a",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MR",
     Name: "Wilder Mays",
     BirthDate: "Tuesday, January 7, 2020 12:50 AM",
@@ -870,7 +870,7 @@ export const data = [
   },
   {
     UserID: "3cccac51-d5ec-4cbf-9f72-0d8ddbc94316",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MRS",
     Name: "Aurora Hensley",
     BirthDate: "Tuesday, April 11, 2017 10:18 AM",
@@ -881,7 +881,7 @@ export const data = [
   },
   {
     UserID: "bd1ae909-7653-4076-8eef-0fe3ab818b9a",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MR",
     Name: "Bonner Hess",
     BirthDate: "Thursday, December 8, 2016 3:31 PM",
@@ -892,7 +892,7 @@ export const data = [
   },
   {
     UserID: "6cf629ca-3a8a-4df5-b8fc-b58a3d6ba2a0",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MRS",
     Name: "Allison Barrera",
     BirthDate: "Wednesday, January 31, 2018 11:35 AM",
@@ -903,7 +903,7 @@ export const data = [
   },
   {
     UserID: "4167d17e-7211-49b2-9439-1ac789ba414c",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MR",
     Name: "Julia Burgess",
     BirthDate: "Monday, September 17, 2018 4:30 AM",
@@ -914,7 +914,7 @@ export const data = [
   },
   {
     UserID: "fefb3435-17a8-4bbe-935e-d22cb655f368",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MRS",
     Name: "Rodriguez Glass",
     BirthDate: "Friday, April 24, 2020 7:27 AM",
@@ -925,7 +925,7 @@ export const data = [
   },
   {
     UserID: "13f4c6a0-8455-44d5-a2a5-9cd0f15fae9d",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MR",
     Name: "Elisabeth Washington",
     BirthDate: "Tuesday, June 5, 2018 9:05 PM",
@@ -936,7 +936,7 @@ export const data = [
   },
   {
     UserID: "db064b27-2759-4c3a-b7f4-b33c230e2570",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MRS",
     Name: "Page Woodard",
     BirthDate: "Thursday, August 14, 2014 7:32 PM",
@@ -947,7 +947,7 @@ export const data = [
   },
   {
     UserID: "dfcca26b-28e4-4e00-a9be-93952ea2a69f",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MR",
     Name: "Kaitlin Franks",
     BirthDate: "Thursday, December 7, 2017 7:47 AM",
@@ -958,7 +958,7 @@ export const data = [
   },
   {
     UserID: "80be9c00-fa62-4361-8b15-132c1b320417",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MRS",
     Name: "Cline Golden",
     BirthDate: "Thursday, March 10, 2016 3:11 PM",
@@ -969,7 +969,7 @@ export const data = [
   },
   {
     UserID: "9b4ec01b-3f5c-455f-80b1-3094bfcda268",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MR",
     Name: "Michael Tran",
     BirthDate: "Saturday, May 5, 2018 5:13 AM",
@@ -980,7 +980,7 @@ export const data = [
   },
   {
     UserID: "cbd6f355-466e-4e0e-9a3b-fdf7101da632",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MRS",
     Name: "Marisol Stanley",
     BirthDate: "Friday, October 5, 2018 9:33 AM",
@@ -991,7 +991,7 @@ export const data = [
   },
   {
     UserID: "18f5b9df-07fd-4b05-90fe-0485a067eaa6",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MR",
     Name: "Cristina Lamb",
     BirthDate: "Monday, March 28, 2016 11:38 AM",
@@ -1002,7 +1002,7 @@ export const data = [
   },
   {
     UserID: "ddd134dd-d82f-4ba0-932f-c8ff69a177c7",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MRS",
     Name: "Janine Boone",
     BirthDate: "Tuesday, April 4, 2017 12:29 AM",
@@ -1013,7 +1013,7 @@ export const data = [
   },
   {
     UserID: "77611b12-9df7-495c-90d4-304741887005",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MR",
     Name: "Olsen English",
     BirthDate: "Saturday, August 23, 2014 5:14 AM",
@@ -1024,7 +1024,7 @@ export const data = [
   },
   {
     UserID: "103529ed-d2e6-4bee-979d-a52c72876015",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MRS",
     Name: "Atkins Meyer",
     BirthDate: "Friday, September 4, 2015 2:41 AM",
@@ -1035,7 +1035,7 @@ export const data = [
   },
   {
     UserID: "41d5ec77-71c5-4c2c-a8b8-1522704eb06d",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MR",
     Name: "Angel Cross",
     BirthDate: "Tuesday, February 13, 2018 10:51 PM",
@@ -1046,7 +1046,7 @@ export const data = [
   },
   {
     UserID: "f810beaa-95a6-4123-ac49-92877901d6e6",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MRS",
     Name: "Ray Guzman",
     BirthDate: "Monday, May 7, 2018 6:39 PM",
@@ -1057,7 +1057,7 @@ export const data = [
   },
   {
     UserID: "bec12efe-1590-4d86-a95b-ffcd7773c055",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MR",
     Name: "Conrad Oneil",
     BirthDate: "Thursday, September 22, 2016 5:46 AM",
@@ -1068,7 +1068,7 @@ export const data = [
   },
   {
     UserID: "89d647c7-e9b6-4688-b483-f8cde4a5699f",
-    IsFavorite: 0,
+    IsFavorite: "0",
     Title: "MRS",
     Name: "Kelley Dixon",
     BirthDate: "Thursday, September 28, 2017 7:29 PM",
@@ -1079,7 +1079,7 @@ export const data = [
   },
   {
     UserID: "6893b898-ba08-4eb0-a7bb-00908b0fffbb",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MR",
     Name: "Eaton Owens",
     BirthDate: "Friday, February 5, 2016 8:31 PM",
@@ -1090,7 +1090,7 @@ export const data = [
   },
   {
     UserID: "ff29ec95-52e3-4e36-b8d8-bc4eec9746ab",
-    IsFavorite: 1,
+    IsFavorite: "1",
     Title: "MRS",
     Name: "Cummings Tanner",
     BirthDate: "Tuesday, April 24, 2018 5:14 PM",

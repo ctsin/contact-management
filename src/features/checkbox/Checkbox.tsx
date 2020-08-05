@@ -15,7 +15,7 @@ export const Checkbox: FC<Props> = ({ label, id = uuid() }) => {
   const onChanged = (event: ChangeEvent<HTMLInputElement>) => {
     const checked = event.target.checked;
 
-    dispatch(fetchContacts(checked ? { IsFavorite: 1 } : {}));
+    dispatch(fetchContacts(checked ? { IsFavorite: "1" } : {}));
   };
 
   return (

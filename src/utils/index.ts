@@ -29,6 +29,11 @@ export const getURLParameters = (url: string) => {
   );
 };
 
+export const propsStringify = (obj: object) =>
+  Object.entries(obj).reduce((acc, [key, value]) => {
+    return { ...acc, [key]: String(value) };
+  }, {});
+
 export const withFilters = <T>(data: T[], filters: Partial<T>): T[] => {
   const filterHandler = (item: T) =>
     Object.entries(filters).reduce((acc, [key, value]) => {
