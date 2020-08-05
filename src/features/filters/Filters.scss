@@ -1,7 +1,7 @@
 @import "../../scss/variables";
 
-.checkbox {
+.filters {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
   margin-bottom: $size-lg;
 }

@@ -1,0 +1,18 @@
+@import "../../scss/variables";
+
+.search {
+  $width: 150px;
+  $duration: 0.4s;
+
+  .field {
+    padding: $size-md $size-lg;
+    border: 1px solid $border-color;
+    border-radius: $radius;
+    width: $width;
+    transition: width $duration ease-in-out;
+
+    &:focus {
+      width: $width * 2;
+    }
+  }
+}

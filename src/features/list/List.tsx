@@ -4,6 +4,8 @@ import { selectContacts, fetchContacts } from "../../store/contact.slice";
 import { Gird } from "../grid/Grid";
 import { Filters } from "../filters/Filters";
 import { Checkbox } from "../checkbox/Checkbox";
+import { Search } from "../search/Search";
+
 import "./List.scss";
 
 export const List = () => {
@@ -19,6 +21,7 @@ export const List = () => {
     <div className="list-container">
       <Filters>
         <Checkbox label="Favorite Only" />
+        <Search />
       </Filters>
 
       <Gird titles={contactTitle} data={contacts} />

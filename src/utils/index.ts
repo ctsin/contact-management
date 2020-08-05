@@ -32,7 +32,18 @@ export const getURLParameters = (url: string) => {
 export const withFilters = <T>(data: T[], filters: Partial<T>): T[] => {
   const filterHandler = (item: T) =>
     Object.entries(filters).reduce((acc, [key, value]) => {
-      return (acc = acc ? (item as any)[key] === value : false);
+      switch (key) {
+        case "IsFavorite":
+          return (acc = acc ? (item as any)[key] === value : false);
+
+        case "Name":
+          return (acc = acc
+            ? (item as any)[key].toLowerCase().includes((value as string).toLowerCase())
+            : false);
+
+        default:
+          return true;
+      }
     }, true);
 
   return data.filter(filterHandler);

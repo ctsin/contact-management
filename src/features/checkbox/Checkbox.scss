@@ -1,5 +1,9 @@
 @import "../../scss/variables";
+
 .checkbox {
+  display: flex;
+  align-items: center;
+
   label {
     user-select: none;
   }

@@ -2,13 +2,12 @@ import { rest } from "msw";
 import { data } from "./data";
 import { contactsURL } from "../constants";
 import { getURLParameters, withFilters } from "../utils";
-import { Contact } from "../interfaces/contact.interface";
 
 export const handlers = [
   rest.get(contactsURL, (req, res, ctx) => {
     const query = getURLParameters(req.url.href);
 
-    const contacts = withFilters<Contact>(data as Contact[], query);
+    const contacts = withFilters(data, query);
 
     return res(ctx.status(200), ctx.json(contacts));
   }),
