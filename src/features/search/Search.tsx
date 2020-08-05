@@ -1,5 +1,4 @@
 import React, { FC, ChangeEvent } from "react";
-import { v4 as uuid } from "uuid";
 import { useDispatch } from "react-redux";
 import { fetchContacts } from "../../store/contact.slice";
 import { DebounceInput } from "react-debounce-input";
@@ -11,7 +10,6 @@ interface Props {
 }
 
 export const Search: FC<Props> = ({ placeholder }) => {
-  const id = uuid();
   const dispatch = useDispatch();
 
   const changeHandler = (event: ChangeEvent<HTMLInputElement>) => {
@@ -28,7 +26,6 @@ export const Search: FC<Props> = ({ placeholder }) => {
         type="search"
         debounceTimeout={300}
         onChange={changeHandler}
-        id={id}
       />
     </div>
   );

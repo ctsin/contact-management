@@ -1,15 +1,17 @@
-import React, { FC, ChangeEvent } from "react";
+import React, { FC, ChangeEvent, useState } from "react";
 import { v4 as uuid } from "uuid";
 import { useDispatch } from "react-redux";
 import { fetchContacts } from "../../store/contact.slice";
+
 import "./Checkbox.scss";
 
 interface Props {
   label: string;
-  id?: string;
 }
 
-export const Checkbox: FC<Props> = ({ label, id = uuid() }) => {
+export const Checkbox: FC<Props> = ({ label }) => {
+  const [id] = useState(() => uuid());
+
   const dispatch = useDispatch();
 
   const onChanged = (event: ChangeEvent<HTMLInputElement>) => {
