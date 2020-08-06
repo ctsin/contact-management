@@ -4,15 +4,29 @@
   $width: 150px;
   $duration: 0.4s;
 
+  position: relative;
+
+  label[for="name-search"] {
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 0;
+    transform: translate3d(0, -50%, 0);
+    line-height: 1;
+    color: $gray-500;
+  }
+
   .field {
-    padding: $size-md $size-lg;
-    border: 1px solid $border-color;
-    border-radius: $radius;
+    padding: $size-md $size-lg $size-md 5em;
+    border: 1px none;
+    border-bottom: 1px solid $blue-500;
     width: $width;
+    background-color: transparent;
+    outline: none;
     transition: width $duration ease-in-out;
 
     &:focus {
       width: $width * 2;
+      border-bottom-color: $blue-700;
     }
   }
 }

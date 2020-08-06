@@ -20,9 +20,13 @@ export const Search: FC<Props> = ({ placeholder }) => {
 
   return (
     <div className="search">
+      <label className="name-search-label" htmlFor="name-search">
+        Search for
+      </label>
       <DebounceInput
+        id="name-search"
         className="field"
-        placeholder={placeholder ?? "Search"}
+        placeholder={placeholder ?? "Name"}
         type="search"
         debounceTimeout={300}
         onChange={changeHandler}
