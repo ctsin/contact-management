@@ -11,6 +11,20 @@ export const handlers = [
 
     return res(ctx.status(200), ctx.json(contacts));
   }),
+
+  rest.get(`${contactsURL}:UserID`, (req, res, ctx) => {
+    const { UserID: id } = req.params;
+
+    const user = data.find(({ UserID }) => UserID === id);
+    console.log("调试: user", user);
+
+    if (!user) {
+      return res(ctx.status(404));
+    }
+
+    return res(ctx.status(200), ctx.json(user));
+  }),
+
   rest.post(contactsURL, (req, res, ctx) => {
     return res(ctx.status(200));
   }),

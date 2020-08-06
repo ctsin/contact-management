@@ -11,7 +11,7 @@ export const App = () => (
         <List />
       </Route>
 
-      <Route path="/details/:UserId">
+      <Route path="/details/:UserID">
         <ContactDetails />
       </Route>
 

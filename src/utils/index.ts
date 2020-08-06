@@ -34,6 +34,17 @@ export const propsStringify = (obj: object) =>
     return { ...acc, [key]: String(value) };
   }, {});
 
+export const capitalize = (input: string = "") => {
+  if (!input.length) {
+    return input;
+  }
+
+  const lower = input.toLowerCase();
+  const firstLetter = lower.slice(0, 1);
+
+  return lower.replace(firstLetter, firstLetter.toUpperCase());
+};
+
 export const withFilters = <T>(data: T[], filters: Partial<T>): T[] => {
   const filterHandler = (item: T) =>
     Object.entries(filters).reduce((acc, [key, value]) => {

@@ -7,7 +7,7 @@ export interface Contact {
   ContactDetail: ContactDetail;
 }
 
-interface ContactDetail {
+export interface ContactDetail {
   ContactDetailType: "Phone" | "EAMIL";
   ContactDetailContent: string;
 }

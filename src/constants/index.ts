@@ -1,1 +1,1 @@
-export const contactsURL = "/contacts";
+export const contactsURL = "/v1/contacts/";

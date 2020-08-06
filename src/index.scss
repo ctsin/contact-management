@@ -21,6 +21,66 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
+@mixin as-link {
+  cursor: pointer;
+  color: $blue-400;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: $blue-600;
+  }
+}
+
+a {
+  @include as-link();
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1em;
+
+  @media screen and (min-width: $break-point-md) {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.nav-top {
+  display: flex;
+  justify-content: space-between;
+
+  .go-back {
+    @include as-link();
+    display: flex;
+    align-items: center;
+
+    &::before {
+      content: "";
+      display: inline-flex;
+      width: 0.5em;
+      height: 0.5em;
+      margin-right: 0.2em;
+      border: 2px solid currentColor;
+      border-style: none none solid solid;
+      transform: rotate(45deg);
+    }
+  }
+}
+
+.dl-group {
+  display: flex;
+  padding: $size-lg 0;
+  border-bottom: 1px solid $border-color;
+
+  dt {
+    min-width: 5em;
+  }
+}
+
 .full-screen {
   display: flex;
   justify-content: center;

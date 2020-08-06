@@ -1,6 +1,8 @@
 import React, { FC } from "react";
 import { Contact } from "../../interfaces/contact.interface";
-import { boolAsStringFormatter } from "../../utils";
+import { boolAsStringFormatter, capitalize } from "../../utils";
+import { Link } from "react-router-dom";
+
 import "./Grid.scss";
 
 interface Props {
@@ -21,7 +23,9 @@ export const Gird: FC<Props> = ({ titles = [], data = [] }) => {
     return dataSource.map(({ Title, Name, BirthDate, IsFavorite, UserID }) => (
       <tr key={UserID}>
         <td>
-          {Title} {Name}
+          <Link to={`/details/${UserID}`}>
+            {capitalize(Title ?? "")} {Name}
+          </Link>
         </td>
         <td>{BirthDate}</td>
         <td>{boolAsStringFormatter(IsFavorite, "✔", "")}</td>

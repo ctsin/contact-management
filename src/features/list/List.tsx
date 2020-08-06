@@ -18,7 +18,7 @@ export const List = () => {
   }, [dispatch]);
 
   return (
-    <div className="list-container">
+    <div className="container">
       <Filters>
         <Checkbox label="Favorite Only" />
         <Search />
