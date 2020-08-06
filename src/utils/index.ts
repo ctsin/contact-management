@@ -45,6 +45,16 @@ export const capitalize = (input: string = "") => {
   return lower.replace(firstLetter, firstLetter.toUpperCase());
 };
 
+export const dateFormatter = (
+  dateSource: string,
+  locales = "en-GB",
+  options: Intl.DateTimeFormatOptions = {}
+) => {
+  const date = new Date(dateSource);
+
+  return new Intl.DateTimeFormat(locales, options).format(date);
+};
+
 export const withFilters = <T>(data: T[], filters: Partial<T>): T[] => {
   const filterHandler = (item: T) =>
     Object.entries(filters).reduce((acc, [key, value]) => {

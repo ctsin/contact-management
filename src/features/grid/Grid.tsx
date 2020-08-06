@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import { Contact } from "../../interfaces/contact.interface";
-import { boolAsStringFormatter, capitalize } from "../../utils";
+import { boolAsStringFormatter, capitalize, dateFormatter } from "../../utils";
 import { Link } from "react-router-dom";
 
 import "./Grid.scss";
@@ -27,7 +27,7 @@ export const Gird: FC<Props> = ({ titles = [], data = [] }) => {
             {capitalize(Title ?? "")} {Name}
           </Link>
         </td>
-        <td>{BirthDate}</td>
+        <td>{dateFormatter(BirthDate)}</td>
         <td>{boolAsStringFormatter(IsFavorite, "✔", "")}</td>
       </tr>
     ));

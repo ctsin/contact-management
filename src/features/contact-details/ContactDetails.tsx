@@ -2,7 +2,7 @@ import React, { FC, useEffect } from "react";
 import { useParams, useHistory } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchDetail, selectDetail } from "../../store/detail.slice";
-import { capitalize } from "../../utils";
+import { capitalize, dateFormatter } from "../../utils";
 import { Contact } from "../../interfaces/contact.interface";
 import { DescriptionList } from "../description-list/DescriptionList";
 import { Nav } from "../nav/Nav";
@@ -31,7 +31,7 @@ export const ContactDetails: FC<Props> = () => {
     birthday ? (
       <div className="dl-group">
         <dt>Birthday</dt>
-        <dd>{BirthDate}</dd>
+        <dd>{dateFormatter(BirthDate)}</dd>
       </div>
     ) : null;
 
