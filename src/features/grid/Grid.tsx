@@ -2,6 +2,7 @@ import React, { FC } from "react";
 import { Contact } from "../../interfaces/contact.interface";
 import { boolAsStringFormatter, capitalize, dateFormatter } from "../../utils";
 import { Link } from "react-router-dom";
+import { LoadingIndicator } from "../loading-indicator/LoadingIndicator";
 
 import "./Grid.scss";
 
@@ -15,7 +16,9 @@ export const Gird: FC<Props> = ({ titles = [], data = [] }) => {
     if (!dataSource.length) {
       return (
         <tr>
-          <td>Loading...</td>
+          <td colSpan={titles.length}>
+            <LoadingIndicator />
+          </td>
         </tr>
       );
     }
