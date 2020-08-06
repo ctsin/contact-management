@@ -20,3 +20,13 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
+
+.full-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: -0.05em;
+}
