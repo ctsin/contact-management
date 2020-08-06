@@ -1,1 +1,9 @@
 @import "../../scss/variables";
+
+h1 {
+  margin: $size-xlg 0;
+  font-size: 3rem;
+  letter-spacing: -0.05em;
+  font-family: -apple-system, "Montserrat", BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu";
+}
