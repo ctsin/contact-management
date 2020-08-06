@@ -1,0 +1,15 @@
+@import "../../scss/variables";
+
+.dl-group {
+  display: flex;
+  padding: $size-lg 0;
+  border-bottom: 1px solid $border-color;
+
+  dt {
+    min-width: 8em;
+  }
+
+  dd {
+    margin-left: 0;
+  }
+}

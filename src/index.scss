@@ -71,16 +71,6 @@ a {
   }
 }
 
-.dl-group {
-  display: flex;
-  padding: $size-lg 0;
-  border-bottom: 1px solid $border-color;
-
-  dt {
-    min-width: 5em;
-  }
-}
-
 .full-screen {
   display: flex;
   justify-content: center;

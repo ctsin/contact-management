@@ -6,6 +6,7 @@ import { capitalize } from "../../utils";
 import { Contact } from "../../interfaces/contact.interface";
 
 import "./ContactDetails.scss";
+import { DescriptionList } from "../description-list/DescriptionList";
 
 interface Props {}
 
@@ -61,9 +62,8 @@ export const ContactDetails: FC<Props> = () => {
         {capitalize(Title)} {Name}
       </h1>
       <dl>
-        {renderBirthday(BirthDate)}
-
-        {renderContactDetail(ContactDetail)}
+        <DescriptionList render={() => renderBirthday(BirthDate)} />
+        <DescriptionList render={() => renderContactDetail(ContactDetail)} />
       </dl>
     </div>
   );
