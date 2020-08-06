@@ -4,9 +4,10 @@ import { useDispatch, useSelector } from "react-redux";
 import { fetchDetail, selectDetail } from "../../store/detail.slice";
 import { capitalize } from "../../utils";
 import { Contact } from "../../interfaces/contact.interface";
+import { DescriptionList } from "../description-list/DescriptionList";
+import { Nav } from "../nav/Nav";
 
 import "./ContactDetails.scss";
-import { DescriptionList } from "../description-list/DescriptionList";
 
 interface Props {}
 
@@ -19,6 +20,12 @@ export const ContactDetails: FC<Props> = () => {
   const goBack = () => {
     history.goBack();
   };
+
+  const renderNav = () => (
+    <div className="go-back" onClick={goBack}>
+      Back
+    </div>
+  );
 
   const renderBirthday = (birthday: Contact["BirthDate"]) =>
     birthday ? (
@@ -51,12 +58,7 @@ export const ContactDetails: FC<Props> = () => {
 
   return (
     <div className="container">
-      {/* Todo: abstract .nav-top section as a reused component */}
-      <div className="nav-top">
-        <div className="go-back" onClick={goBack}>
-          Back
-        </div>
-      </div>
+      <Nav render={() => renderNav()} />
 
       <h1>
         {capitalize(Title)} {Name}

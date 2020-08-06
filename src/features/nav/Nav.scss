@@ -1,0 +1,24 @@
+@import "../../scss/variables";
+@import "../../scss/mixins";
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+
+  .go-back {
+    @include as-link();
+    display: flex;
+    align-items: center;
+
+    &::before {
+      content: "";
+      display: inline-flex;
+      width: 0.5em;
+      height: 0.5em;
+      margin-right: 0.2em;
+      border: 2px solid currentColor;
+      border-style: none none solid solid;
+      transform: rotate(45deg);
+    }
+  }
+}

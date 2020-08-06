@@ -1,4 +1,5 @@
 @import "./scss/variables";
+@import "./scss/mixins";
 
 *,
 *::before,
@@ -21,17 +22,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
-@mixin as-link {
-  cursor: pointer;
-  color: $blue-400;
-  text-decoration: none;
-
-  &:hover,
-  &:focus {
-    color: $blue-600;
-  }
-}
-
 a {
   @include as-link();
 }
@@ -46,28 +36,6 @@ a {
     width: 600px;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-
-.nav-top {
-  display: flex;
-  justify-content: space-between;
-
-  .go-back {
-    @include as-link();
-    display: flex;
-    align-items: center;
-
-    &::before {
-      content: "";
-      display: inline-flex;
-      width: 0.5em;
-      height: 0.5em;
-      margin-right: 0.2em;
-      border: 2px solid currentColor;
-      border-style: none none solid solid;
-      transform: rotate(45deg);
-    }
   }
 }
 
