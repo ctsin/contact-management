@@ -16,7 +16,6 @@ export const handlers = [
     const { UserID: id } = req.params;
 
     const user = data.find(({ UserID }) => UserID === id);
-    console.log("调试: user", user);
 
     if (!user) {
       return res(ctx.status(404));
