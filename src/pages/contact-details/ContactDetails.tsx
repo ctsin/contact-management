@@ -4,8 +4,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { fetchDetail, selectDetail } from "../../store/detail.slice";
 import { capitalize, dateFormatter } from "../../utils";
 import { Contact } from "../../interfaces/contact.interface";
-import { DescriptionList } from "../description-list/DescriptionList";
-import { Nav } from "../nav/Nav";
+import { DescriptionList } from "../../features/description-list/DescriptionList";
+import { Nav } from "../../features/nav/Nav";
 
 import "./ContactDetails.scss";
 

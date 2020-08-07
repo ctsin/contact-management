@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { List } from "./list/List";
-import { ContactDetails } from "./contact-details/ContactDetails";
+import { List } from "../pages/list/List";
+import { ContactDetails } from "../pages/contact-details/ContactDetails";
 import { NotFound } from "./not-found/NotFound";
 
 export const App = () => (
